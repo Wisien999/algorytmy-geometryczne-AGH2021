@@ -1,0 +1,17 @@
+Epsilon,1e-08
+
+Metoda klasyfikacji punktów,dataset 1a - classification LEFT,dataset 1a - classification COLLINEAR,dataset 1a - classification RIGHT,dataset 1b - classification LEFT,dataset 1b - classification COLLINEAR,dataset 1b - classification RIGHT,dataset 1c - classification LEFT,dataset 1c - classification COLLINEAR,dataset 1c - classification RIGHT,dataset 1d - classification LEFT,dataset 1d - classification COLLINEAR,dataset 1d - classification RIGHT
+macierz 3x3 własny wyznacznik,49767,0,50233,50013,0,49987,510,0,490,0,1000,0
+macierz 2x2 własny wyznacznik,49767,0,50233,50010,8,49982,510,0,490,0,1000,0
+macierz 3x3 wyznacznik numpy,49767,0,50233,50013,0,49987,510,0,490,0,1000,0
+macierz 2x2 wyznacznik numpy,49767,0,50233,50010,9,49981,510,0,490,0,1000,0
+
+
+Ilość różnych kwalifikacji punktów
+metoda kwalifikacji 1,metoda kwalifikacji 2,dataset 1a,dataset 1b,dataset 1c,dataset 1d
+macierz 3x3 własny wyznacznik,macierz 2x2 własny wyznacznik,0,9,0,0
+macierz 3x3 własny wyznacznik,macierz 3x3 wyznacznik numpy,0,0,0,0
+macierz 3x3 własny wyznacznik,macierz 2x2 wyznacznik numpy,0,11,0,0
+macierz 3x3 wyznacznik numpy,macierz 2x2 własny wyznacznik,0,9,0,0
+macierz 2x2 wyznacznik numpy,macierz 3x3 wyznacznik numpy,0,11,0,0
+macierz 2x2 wyznacznik numpy,macierz 2x2 własny wyznacznik,0,7,0,0

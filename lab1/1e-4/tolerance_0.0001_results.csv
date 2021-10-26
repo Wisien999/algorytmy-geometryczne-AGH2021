@@ -1,0 +1,17 @@
+Epsilon,0.0001,,,,,,,,,,,,
+,,dataset 1a - classification LEFT,dataset 1a - classification COLLINEAR,dataset 1a - classification RIGHT,dataset 1b - classification LEFT,dataset 1b - classification COLLINEAR,dataset 1b - classification RIGHT,dataset 1c - classification LEFT,dataset 1c - classification COLLINEAR,dataset 1c - classification RIGHT,dataset 1d - classification LEFT,dataset 1d - classification COLLINEAR,dataset 1d - classification RIGHT
+,Metoda klasyfikacji punktów,LEFT,COLLINEAR,RIGHT,LEFT,COLLINEAR,RIGHT,LEFT,COLLINEAR,RIGHT,LEFT,COLLINEAR,RIGHT
+AA,macierz 3x3 w?asny wyznacznik,50534,0,49466,50092,0,49908,532,0,468,0,1000,0
+AB,macierz 2x2 w?asny wyznacznik,50534,0,49466,50086,8,49906,532,0,468,0,1000,0
+BA,macierz 3x3 wyznacznik numpy,50534,0,49466,50092,0,49908,532,0,468,0,1000,0
+BB,macierz 2x2 wyznacznik numpy,50534,0,49466,50087,10,49903,532,0,468,0,1000,0
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,Ilo?? ró?nych kwalifikacji punktów,,,,,,,,,,,,
+,metoda kwalifikacji 1,metoda kwalifikacji 2,dataset 1a,dataset 1b,dataset 1c,dataset 1d,,,,,,,
+,macierz 3x3 w?asny wyznacznik,macierz 2x2 w?asny wyznacznik,0,10,0,0,,,,,,,
+,macierz 3x3 w?asny wyznacznik,macierz 3x3 wyznacznik numpy,0,0,0,0,,,,,,,
+,macierz 3x3 w?asny wyznacznik,macierz 2x2 wyznacznik numpy,0,10,0,0,,,,,,,
+,macierz 3x3 wyznacznik numpy,macierz 2x2 w?asny wyznacznik,0,10,0,0,,,,,,,
+,macierz 2x2 wyznacznik numpy,macierz 3x3 wyznacznik numpy,0,10,0,0,,,,,,,
+,macierz 2x2 wyznacznik numpy,macierz 2x2 w?asny wyznacznik,0,6,0,0,,,,,,,
