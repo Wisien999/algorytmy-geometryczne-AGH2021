@@ -17,14 +17,26 @@ class Node():
     def __repr__(self):
         return f'color: {self.color}, data: ' + str(self.data)
 
+    def __iter__(self):
+        if self.data is None:
+            return
+        if self.left is None and self.right is None:
+            return
+
+        yield from self.left
+        yield self.data
+        yield from self.right
+
+
 
 # class RedBlackTree implements the operations in Red Black Tree
 class RedBlackTree():
     def __init__(self):
-        self.TNULL = Node(0)
+        self.TNULL = Node(None)
         self.TNULL.color = 0
         self.TNULL.left = None
         self.TNULL.right = None
+        self.TNULL.null = True
         self.root = self.TNULL
 
     def __pre_order_helper(self, node):
@@ -382,6 +394,10 @@ class RedBlackTree():
     def empty(self):
         return self.get_root() == self.TNULL
 
+    def __iter__(self):
+        yield from self.root
+
+
 
 if __name__ == "__main__":
     bst = RedBlackTree()
@@ -399,3 +415,5 @@ if __name__ == "__main__":
     bst.insert(80)
     bst.delete_node(25)
     bst.pretty_print()
+    for i in bst:
+        print(i)
